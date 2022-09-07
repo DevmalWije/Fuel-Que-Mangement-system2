@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="568.0" prefWidth="927.0" spacing="20.0" style="-fx-background-color: #274472;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Task_2_Task_4.GUIcontroller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" alignment="CENTER" contentDisplay="CENTER" prefHeight="74.0" prefWidth="908.0" style="-fx-background-color: #5885AF;" text="Fuel Queue View Center" textFill="#c3e0e5">
+      <font>
+         <Font name="Arial Bold Italic" size="29.0" />
+      </font></Label>
+   <TextField fx:id="searchBox" alignment="CENTER" prefHeight="41.0" prefWidth="887.0" promptText="Search info" style="-fx-background-color: #C3E0E5;">
+      <font>
+         <Font name="Arial Bold" size="13.600000381469727" />
+      </font>
+   </TextField>
+   <TableView fx:id="table" prefHeight="382.0" prefWidth="887.0" style="-fx-background-color: #C3E0E5;">
+     <columns>
+         <TableColumn fx:id="PassengerFname" prefWidth="178.3999900817871" text="First Name" />
+         <TableColumn fx:id="PassengerLname" prefWidth="178.3999900817871" text="Last Name" />
+         <TableColumn fx:id="PassengerVehicleNo" prefWidth="178.3999900817871" text="Vehicle No." />
+         <TableColumn fx:id="PassengerFuelAmnt" prefWidth="178.3999900817871" text="Fuel Amount" />
+         <TableColumn fx:id="PassengerQueue" prefWidth="166.400146484375" text="Queue No." />
+     </columns>
+   </TableView>
+</VBox>
