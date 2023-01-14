@@ -1,2 +1,2 @@
 # Fuel-Que-Mangement-system
- Terminal based simulated fuel que management system
+Demo skin consultation center application running on java and using java swing as the GUI widget toolkit.
